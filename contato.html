@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luemba Arquitetura</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">LUEMBA ARQ<span>.</span></a>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html" class="active">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-main">
+        <section class="page-header">
+            <h1>Entre em Contato</h1>
+            <p>Estamos prontos para transformar sua visão em realidade.</p>
+        </section>
+
+        
+        <section class="contact-section">
+            <form id="contact-form" action="enviar_email.php" method="post">
+                </form>
+        </section>
+        <section class="contact-section">
+            <form id="contact-form">
+                <label for="name">Nome Completo</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="cta-button">Enviar Mensagem</button>
+            </form>
+
+                
+            <div class="contact-info">
+                <h3>Informações</h3>
+                <p><strong>E-mail:</strong> arqluemba@gmail.com</p>
+                <p><strong>Telefone:</strong> (+244) 944 231 415</p>
+                <p><strong>Endereço:</strong> Rua das Flores, 123, São Paulo - SP</p>
+                <div class="social-links">
+                    <a href="#">YouTube</a>
+                    <a href="https://www.instagram.com/luemba_arquitetura/">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="testimonials-counters">
+            <div class="counter-item">
+                <h3 class="counter-number" data-count="401">0</h3>
+                <p>Projetos Entregues</p>
+            </div>
+            <div class="counter-item">
+                <h3 class="counter-number" data-count="380">0</h3>
+                <p>Clientes Satisfeitos</p>
+            </div>
+            <div class="counter-item">
+                <h3 class="counter-number" data-count="10">0</h3>
+                <p>Anos de Experiência</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Escritório de Arquitetura. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/counters.js"></script>
+</body>
+</html>
